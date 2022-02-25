@@ -15,3 +15,7 @@ A script that takes songs from selected Spotify playlist and generates a YouTube
 * To Collect your User ID, Log intoYoutube then go here: [Account Advanced Settings](https://www.youtube.com/account_advanced) ![User ID](Images/playliststuff.png)
 *  To Collect your Oauth Token, Visit this url here: [Get Oauth](https://developers.google.com/oauthplayground/) and follow the steps as given [here](https://stevesie.com/docs/pages/youtube-oauth-access-token)
 * Good going! Now we have the Youtube Access Token. Add the User ID and Oauth Token to secret.py file
+* Get **Spotify playlist OAuth Token** here:[Playlist OAuth](https://developer.spotify.com/console/get-playlist-tracks/)
+* Run the File `python3 create_playlist.py`
+you'll immediately see `Please visit this URL to authorize this application: <some long url>`
+click on it and log into your Spotify to collect the `authorization code`
